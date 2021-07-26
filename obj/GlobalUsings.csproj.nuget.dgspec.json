@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/captainsafia/Verifications/GlobalUsings/GlobalUsings.csproj": {}
+  },
+  "projects": {
+    "/Users/captainsafia/Verifications/GlobalUsings/GlobalUsings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/captainsafia/Verifications/GlobalUsings/GlobalUsings.csproj",
+        "projectName": "GlobalUsings",
+        "projectPath": "/Users/captainsafia/Verifications/GlobalUsings/GlobalUsings.csproj",
+        "packagesPath": "/Users/captainsafia/.nuget/packages/",
+        "outputPath": "/Users/captainsafia/Verifications/GlobalUsings/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/captainsafia/Verifications/NuGet.Config",
+          "/Users/captainsafia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.0-preview.7.21358.5, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-preview.7.21358.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.0-preview.7.21359.1, 6.0.0-preview.7.21359.1]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/captainsafia/.dotnet/sdk/6.0.100-preview.7.21359.29/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
